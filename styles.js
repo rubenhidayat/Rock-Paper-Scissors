@@ -58,11 +58,11 @@ let computerScore = 0;
 while (true){
     if (rounds === 6){
         if (humanScore > computerScore){
-            console.log("Game Over, Human Wins")
-        }else if (computerScore < humanScore){
-            console.log("Game Over, Computer Wins!")
+            console.log("Game Over, Human Wins\n"+`final score : human (${humanScore}) - (${computerScore}) computer`)
+        }else if (computerScore > humanScore){
+            console.log("Game Over, Computer Wins!\n"+`final score : human (${humanScore}) - (${computerScore}) computer`)
         }else{
-            console.log("DRAW!!!")
+            console.log("DRAW!!!\n"+`final score : human (${humanScore}) - (${computerScore}) computer`)
         }
         break
     }
